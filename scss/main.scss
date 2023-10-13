@@ -161,15 +161,13 @@ section{
 
 .about-us{
     padding-bottom: 60px;
-    @include flexCenter(row,space-evenly, center);
     h2{
         font-weight: bold;
         padding-bottom: 60px;
     }
 
     .mission-section{
-        background-color: palevioletred;
-
+        @include flexCenter(row, space-evenly, center);
         .earth{
             $text-color:#E86424; //variable local
             width: 30vw;
@@ -224,9 +222,10 @@ section{
     }
     .map{
         @include flexCenter(row, center, center);
-        padding-bottom: 50px;
-        width: 100vw;
-        height: auto;
+        padding-bottom: 50px;     
+        img{
+            width: 80vw;
+        }  
     }
 
     h3, p{

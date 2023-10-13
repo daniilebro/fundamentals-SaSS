@@ -140,17 +140,16 @@ section .furniture .product-card {
 
 .about-us {
   padding-bottom: 60px;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  align-items: center;
 }
 .about-us h2 {
   font-weight: bold;
   padding-bottom: 60px;
 }
 .about-us .mission-section {
-  background-color: palevioletred;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
 }
 .about-us .mission-section .earth, .about-us .mission-section .innovation {
   width: 30vw;
@@ -205,8 +204,9 @@ section .furniture .product-card {
   justify-content: center;
   align-items: center;
   padding-bottom: 50px;
-  width: 100vw;
-  height: auto;
+}
+.location .map img {
+  width: 80vw;
 }
 .location h3, .location p {
   font-size: 1.5em;
